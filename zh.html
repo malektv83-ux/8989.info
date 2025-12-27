@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="使用我们的推荐链接节省加密货币交易手续费">
+    <title>OKX返佣 | 终身节省20%交易手续费</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">OKX<span class="logo-accent">返佣</span></div>
+            <ul class="nav-links">
+                <li><a href="#exchanges">交易所</a></li>
+                <li><a href="#benefits">优势</a></li>
+                <li><a href="#testimonials">用户评价</a></li>
+                <li><a href="#faq">常见问题</a></li>
+            </ul>
+            <div class="language-toggle">
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn active" data-lang="zh">中文</button>
+            </div>
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 移动端菜单 -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li><a href="#exchanges">交易所</a></li>
+            <li><a href="#benefits">优势</a></li>
+            <li><a href="#testimonials">用户评价</a></li>
+            <li><a href="#faq">常见问题</a></li>
+        </ul>
+        <div class="mobile-language">
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn active" data-lang="zh">中文</button>
+        </div>
+    </div>
+
+    <!-- 主要内容区域 -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>终身节省20%加密货币交易手续费！</h1>
+                <p>使用我们的推荐链接注册OKX和其他领先的加密货币交易所，永久享受所有交易的手续费返佣。</p>
+                <a href="#exchanges" class="btn btn-primary">立即获取折扣</a>
+            </div>
+            <div class="hero-image">
+                <img src="./img/OKX trading.png" alt="OKX交易示意图">
+            </div>
+        </div>
+    </section>
+
+    <!-- 信任的交易所 -->
+    <section id="logos">
+        <div class="container">
+            <h2>数百万交易者的共同选择</h2>
+            <div class="exchange-logos">
+                <div class="exchange-item">
+                    <img src="./img/okx-logo.png" alt="OKX Logo" width="150px" height="150px">
+                    <a href="https://www.ouxyi.io/ul/6CngT5?channelId=26021839" class="btn btn-secondary">立即加入</a>
+                </div>
+                <div class="exchange-item">
+                    <img src="./img/binance.png" alt="Binance Logo" width="150px" height="150px">
+                    <a href="https://www.marketwebb.me/join?ref=WZ9KD49N&&utm_medium=web_share_copy" class="btn btn-secondary">立即加入</a>
+                </div>
+                <div class="exchange-item">
+                    <img src="./img/coinbase.png" alt="Bybit Logo" width="150px" height="150px">
+                    <a href="https://www.marketwebb.me/join?ref=WZ9KD49N&&utm_medium=web_share_copy" class="btn btn-secondary">立即加入</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 为什么加入 -->
+    <section id="benefits">
+        <div class="container">
+            <h2>为什么使用我们的推荐链接？</h2>
+            <div class="benefits-content">
+                <div class="fee-comparison">
+                    <h3>交易手续费对比</h3>
+                    <div class="comparison-chart">
+                        <div class="standard-rate">
+                            <div class="rate-label">标准费率</div>
+                            <div class="rate-value">0.1%</div>
+                        </div>
+                        <div class="our-rate">
+                            <div class="rate-label">使用我们的推荐链接</div>
+                            <div class="rate-value">0.08%</div>
+                        </div>
+                    </div>
+                    <p>永久节省高达20%的交易手续费，无任何额外成本！</p>
+                </div>
+                <div class="benefits-list">
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>对您完全免费</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>终身费率减免</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>独家注册奖励</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>平台功能和安全性保持不变</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 平台卡片 -->
+    <section id="exchanges">
+        <div class="container">
+            <h2>顶级加密货币交易所手续费优惠</h2>
+            <div class="exchange-cards">
+                <!-- OKX卡片 -->
+                <div class="exchange-card" id="okx">
+                    <div class="card-header">
+                        <img src="./img/okx.png" alt="OKX Logo">
+                        <h3>OKX</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="discount-info">
+                            <span class="discount-badge">手续费20%优惠</span>
+                            <p>标准现货交易手续费: 0.1%</p>
+                            <p>使用我们链接后费率: 0.08%</p>
+                        </div>
+                        <div class="bonus-info">
+                            <h4>注册奖励:</h4>
+                            <p>神秘盲盒，最高可获10,000美元奖励 + 5 USDT试用资金</p>
+                        </div>
+                        <a href="https://www.ouxyi.io/ul/6CngT5?channelId=26021839" target="_blank" class="btn btn-primary">获取优惠注册</a>
+                    </div>
+                </div>
+
+                <!-- Binance卡片 -->
+                <div class="exchange-card" id="binance">
+                    <div class="card-header">
+                        <img src="./img/binance.png" alt="Binance Logo">
+                        <h3>币安 Binance</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="discount-info">
+                            <span class="discount-badge">手续费20%优惠</span>
+                            <p>标准现货交易手续费: 0.1%</p>
+                            <p>使用我们链接后费率: 0.08%</p>
+                        </div>
+                        <div class="bonus-info">
+                            <h4>注册奖励:</h4>
+                            <p>新用户最高可获100 USDT</p>
+                        </div>
+                        <a href="https://www.marketwebb.me/join?ref=WZ9KD49N&&utm_medium=web_share_copy" target="_blank" class="btn btn-primary">获取优惠注册</a>
+                    </div>
+                </div>
+
+                <!-- Bybit卡片 -->
+                <div class="exchange-card" id="bybit">
+                    <div class="card-header">
+                        <img src="./img/binance.png" alt="Bybit Logo">
+                        <h3>Binance</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="discount-info">
+                            <span class="discount-badge">手续费20%优惠</span>
+                            <p>标准现货交易手续费: 0.1%</p>
+                            <p>使用我们链接后费率: 0.08%</p>
+                        </div>
+                        <div class="bonus-info">
+                            <h4>注册奖励:</h4>
+                            <p>最高4,000美元欢迎奖励</p>
+                        </div>
+                        <a href="https://www.marketwebb.me/join?ref=WZ9KD49N&&utm_medium=web_share_copy" target="_blank" class="btn btn-primary">获取优惠注册</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 用户评价 -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>用户怎么说</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="./img/avatars/user1.jpg" alt="用户头像">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"仅3个月我就在OKX上节省了超过500美元的交易手续费。注册过程非常简单，折扣也是即刻生效的！"</p>
+                        <div class="testimonial-author">
+                            <span class="name">李小明</span>
+                            <span class="date">已验证用户 - 2023年6月</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="./img/avatars/user2.jpg" alt="用户头像">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"我在OKX上交易频繁，手续费折扣真的很有用。通过这个链接注册，我同时获得了费率减免和神秘盲盒奖励！"</p>
+                        <div class="testimonial-author">
+                            <span class="name">王丽</span>
+                            <span class="date">已验证用户 - 2023年7月</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="./img/avatars/user3.jpg" alt="用户头像">
+                    </div>
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>"一开始我还有些怀疑，但确实有用！OKX手续费折扣自动应用了，而且我还收到了5 USDT的试用资金。"</p>
+                        <div class="testimonial-author">
+                            <span class="name">张伟</span>
+                            <span class="date">已验证用户 - 2023年8月</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="verification-images">
+                <h3>成功案例验证</h3>
+                <div class="image-grid">
+                    <img src="./img/Success-screenshot.webp" alt="成功截图">
+                    <img src="./img/Fee-discount-screenshot.webp" alt="费率 折扣截图">
+                    <img src="./img/Bonus reward screenshot.webp" alt="奖励截图">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 常见问题 -->
+    <section id="faq">
+        <div class="container">
+            <h2>常见问题</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>OKX手续费折扣如何运作？</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>当您通过我们的推荐链接注册时，OKX会自动为您的交易手续费应用20%的折扣。这个折扣是永久的，适用于您平台上所有未来的交易。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>使用您的推荐链接有任何费用吗？</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>完全免费。使用我们的推荐链接您可以获得所有优惠，没有任何额外成本。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>OKX神秘盲盒奖励是什么？</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>OKX神秘盲盒是一种欢迎奖励，包含价值高达10,000美元的随机加密货币奖励。每个通过我们链接注册的新用户都会获得一个神秘盲盒，奖励从几美元到可能的数千美元不等。</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>如果我已经有OKX账户怎么办？</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>很遗憾，推荐优惠只适用于新账户。现有OKX用户无法追溯应用推荐折扣到他们的账户。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>OKX<span class="logo-accent">返佣</span></h3>
+                    <p>永久节省加密货币交易手续费</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#exchanges">交易所</a></li>
+                        <li><a href="#benefits">优势</a></li>
+                        <li><a href="#testimonials">用户评价</a></li>
+                        <li><a href="#faq">常见问题</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>关注我们</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-disclaimer">
+                <h4>免责声明</h4>
+                <p>本网站包含推广链接。通过使用这些链接，您将获得手续费折扣，而我们可能会收取佣金，但不会对您产生额外费用。加密货币交易涉及风险，可能不适合所有人。请考虑您的经验、投资目标、财务资源和风险承受能力后再进行交易。OKX和其他提及的交易所名称是其各自所有者的商标。</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 OKX返佣. 保留所有权利。</p>
+                <div class="footer-policies">
+                    <a href="#">服务条款</a>
+                    <a href="#">隐私政策</a>
+                    <a href="#">Cookie政策</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
